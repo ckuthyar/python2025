@@ -1,0 +1,10 @@
+import os
+print(os.name)
+print()
+print(os.environ)
+print()
+print(os.getcwd())
+os.mkdir("folder1")
+os.mkdir("C:/New1")
+os.mkdir("C:\\New2")
+os.mkdir(r"C:\New3")
